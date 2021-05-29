@@ -2,6 +2,16 @@
     height: 54px;
 }
 
-.ms-50 {
-    margin-left: 5px;
+
+.container {
+    max-width: 960px !important;
+    
+}
+
+.searchbar{
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;   
+    font-size: 15px; 
+    height: 28px; 
+    width: 216px; 
+    text-align: center;
 }
