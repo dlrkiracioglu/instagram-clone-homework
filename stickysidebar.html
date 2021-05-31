@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sticky Sabit Sidebar Yapımı</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+	<style type="text/css">
+		.header{
+			width: 100%;
+			height: 200px;
+			text-align: center;
+		}
+		.footer{
+			width: 100%;
+			height: 600px;
+			text-align: center;
+		}
+		.section{
+			height: 1500px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 bg-dark">
+				<div class="header">
+					<h1>Header</h1>
+				</div>
+			</div>
+			<div class="col-md-8 bg-danger">
+				<div class="section">
+					İçerik Alanı
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="sticky-top bg-info">
+					Sticky Alanı
+				</div>
+			</div>
+			<div class="col-md-12 bg-dark">
+				<div class="footer">
+					<h1>footer</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 
+
+Bootstrap İle sticky sidebar yapımı, web sayfanızda sidebar veya herhangi bir nesnenin nesnenin bulunduğu div yüksekliğince ekran ile sekronize bir şekilde hareket etmesidir bunun için kullanmamız gereken bootstrap css class ı sticky-top class ıdır. 
+
+Aşağıdaki örnekte header,section,footer gibi divlere yükseklik belirttim, bir sayfa varmış gibi daha iyi anlaşılabilmesi için.
+
+Css kodları :
+
+<style type="text/css">
+		.header{
+			width: 100%;
+			height: 200px;
+			text-align: center;
+		}
+		.footer{
+			width: 100%;
+			height: 600px;
+			text-align: center;
+		}
+		.section{
+			height: 1500px;
+		}
+</style>
+
+Html kodları :
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 bg-dark">
+			<div class="header">
+				<h1>Header</h1>
+			</div>
+		</div>
+		<div class="col-md-8 bg-danger">
+			<div class="section">
+				İçerik Alanı
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="sticky-top bg-info">
+				Sticky Alanı
+			</div>
+		</div>
+		<div class="col-md-12 bg-dark">
+			<div class="footer">
+				<h1>footer</h1>
+			</div>
+		</div>
+	</div>
+</div>
+
+Eğer sticky özelliğini var olan bir sayfada deneyecekseniz yukarıdaki kodları kullanmayınız. sidebar bölümünüze 
+
+<div class="sticky-top bg-info">
+	Sticky Alanı
+</div>
+
+Yukarıdaki kodları eklemeniz yeterli olacaktır. Örneği indirmek buraya tıklayabilirsiniz.
+
+
+-->
+</body>
+</html>
