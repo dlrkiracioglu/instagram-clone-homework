@@ -153,3 +153,7 @@ a {
     line-height: 13px;
     text-transform: none;
 }
+
+.postheight {
+    height: 200px !important;
+}
